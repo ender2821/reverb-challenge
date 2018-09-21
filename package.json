@@ -1,0 +1,26 @@
+{
+  "name": "reverb-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:compile": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "sass": "node-sass --watch scss -o css",
+    "start": "npm run sass:compile & npm run sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ender2821/reverb-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ender2821/reverb-challenge/issues"
+  },
+  "homepage": "https://github.com/ender2821/reverb-challenge#readme"
+}
